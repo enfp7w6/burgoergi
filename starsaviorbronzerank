@@ -29,22 +29,37 @@ mp2 User CRUD 20pts
 
 mp3 20pts
    authentication.
-   send an email verification after registration. AuthController.php:L65-70
+   #AuthController.php: L54-85 
+
+   send an email verification after registration.
+   #AuthController.php:L44-48
    
    only verified users can login. 
    #IsAdmin.php:L12-26
    
    admin routes should be protected from unauthenticated and unauthorized (not admin role) users. 20pts
-  #web.php:L63-77
+    #web.php:L63-77
 
 mp4 Product review CRUD 20pts
    customers that bought a product or service can post a review/comment and rating on that service or product. 8pts
-   customers that bought a product or service can post and update a review/comment and rating on that service or product. 10pts
-   list all reviews on a datatable. 5pts
-   the administrator can delete user reviews. 5pts
+   ReviewController.php:L54-61
 
+   customers that bought a product or service can post and update a review/comment and rating on that service or product. 10pts
+
+   list all reviews on a datatable. 5pts
+ReviewController.php:L85-99
+
+   the administrator can delete user reviews. 5pts
+   ReviewController.php:L101-114
 mp5 validation 15pts
-   form validation add/edit product/service. user registration validation 15pts 
+form validation 
+#ProductController.php:L61-75
+
+add/edit product/service. 
+#ProductController.php:L61-128
+
+user registration validation 15pts 
+#AuthController.php:L18-28
 
 mp6 filter 15pts 
    * apply filter when a search for a service or product is made.
