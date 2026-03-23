@@ -82,12 +82,14 @@ mp7 charts 15pts
 Admin\DashboardController.php L18-L22
 
    sales bar chart with date range (date picker).
+- DashboardController.php Range : L36-L45
 
     A pie chart showing the percentage of total sales contributed by each product. 15pts
+- File : DashboardController.php Range : L47-L54
 
 mp8 search 15pts
    search products on home page(no datatable search). use LIKE query 8pts
-ShopController.php L21-L24
+ShopController.php L21-L24?????
    search products on home page(no datatable search). use model search 10pts
 Product.phpL34-L41
 
