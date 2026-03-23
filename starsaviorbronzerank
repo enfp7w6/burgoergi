@@ -1,4 +1,4 @@
-ITCP226 Computer Programming 5 - Web Development 
+
 
 MP1 Product/Service  20pts
 
@@ -6,12 +6,15 @@ Product/Service CRUD datatable 8pts
 #ProductController.php:L18-53
 
 Product/Service CRUDRestore datatable upload a single photo 10pts
-#ProductController.php:L204-236 (restore)
-#ProductController.php:L99-119 (photo upload)
+Admin\ProductController.php L222 (restore)
+
+Admin\ProductController.php L97-L109 (upload)
 
 Product/Service CRUDRestore datatable upload/view  multiple photos 15pts
-#ProductController.php:L111-123 (upload)
-Product/Service CRUDRestore datatable upload/view  multiple photos, import products on excel worksheet. 20pts
+Admin\ProductController.php L111-L121 
+
+Product/Service CRUDRestore datatable upload/view  multiple photos, import products on excel worksheet. 
+Imports\ProductsImport.php L15-L33
 
 mp2 User CRUD 20pts
 
@@ -76,7 +79,10 @@ mp6 filter 15pts
 
 mp7 charts 15pts
    charts yearly sales 8pts
+Admin\DashboardController.php L18-L22
+
    sales bar chart with date range (date picker).
+
     A pie chart showing the percentage of total sales contributed by each product. 15pts
 
 mp8 search 15pts
